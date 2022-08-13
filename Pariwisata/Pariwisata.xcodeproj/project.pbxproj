@@ -1,0 +1,464 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B9A88B0828A78EE4005E70F6 /* PariwisataApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9A88B0728A78EE4005E70F6 /* PariwisataApp.swift */; };
+		B9A88B0A28A78EE4005E70F6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9A88B0928A78EE4005E70F6 /* ContentView.swift */; };
+		B9A88B0C28A78EE6005E70F6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B9A88B0B28A78EE6005E70F6 /* Assets.xcassets */; };
+		B9A88B0F28A78EE6005E70F6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B9A88B0E28A78EE6005E70F6 /* Preview Assets.xcassets */; };
+		B9A88B1E28A78FD2005E70F6 /* URL+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9A88B1D28A78FD2005E70F6 /* URL+Extension.swift */; };
+		B9A88B2028A78FF4005E70F6 /* View+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9A88B1F28A78FF4005E70F6 /* View+Extension.swift */; };
+		B9A88B2228A79013005E70F6 /* HTTPClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9A88B2128A79013005E70F6 /* HTTPClient.swift */; };
+		B9A88B2428A79032005E70F6 /* SampleData.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9A88B2328A79032005E70F6 /* SampleData.swift */; };
+		B9A88B2628A7904F005E70F6 /* Tourism.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9A88B2528A7904F005E70F6 /* Tourism.swift */; };
+		B9A88B2828A7906C005E70F6 /* ViewModelBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9A88B2728A7906C005E70F6 /* ViewModelBase.swift */; };
+		B9A88B2A28A79086005E70F6 /* PlaceListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9A88B2928A79086005E70F6 /* PlaceListViewModel.swift */; };
+		B9A88B2C28A790AC005E70F6 /* PlaceItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9A88B2B28A790AC005E70F6 /* PlaceItemView.swift */; };
+		B9A88B2E28A790C9005E70F6 /* PlaceListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9A88B2D28A790C9005E70F6 /* PlaceListView.swift */; };
+		B9A88B3028A790E7005E70F6 /* PlaceDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9A88B2F28A790E7005E70F6 /* PlaceDetailView.swift */; };
+		B9A88B3228A790FF005E70F6 /* FailedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9A88B3128A790FF005E70F6 /* FailedView.swift */; };
+		B9A88B3428A79116005E70F6 /* ProfileRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9A88B3328A79116005E70F6 /* ProfileRowView.swift */; };
+		B9A88B3628A7912C005E70F6 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9A88B3528A7912C005E70F6 /* MapView.swift */; };
+		B9A88B3828A79143005E70F6 /* PlaceAnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9A88B3728A79143005E70F6 /* PlaceAnnotationView.swift */; };
+		B9A88B3A28A79169005E70F6 /* PlaceListScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9A88B3928A79169005E70F6 /* PlaceListScreen.swift */; };
+		B9A88B3C28A79184005E70F6 /* ProfileScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9A88B3B28A79184005E70F6 /* ProfileScreen.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B9A88B0428A78EE4005E70F6 /* Pariwisata.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pariwisata.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B9A88B0728A78EE4005E70F6 /* PariwisataApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PariwisataApp.swift; sourceTree = "<group>"; };
+		B9A88B0928A78EE4005E70F6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B9A88B0B28A78EE6005E70F6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B9A88B0E28A78EE6005E70F6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B9A88B1528A78F31005E70F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		B9A88B1D28A78FD2005E70F6 /* URL+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "URL+Extension.swift"; sourceTree = "<group>"; };
+		B9A88B1F28A78FF4005E70F6 /* View+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Extension.swift"; sourceTree = "<group>"; };
+		B9A88B2128A79013005E70F6 /* HTTPClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPClient.swift; sourceTree = "<group>"; };
+		B9A88B2328A79032005E70F6 /* SampleData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleData.swift; sourceTree = "<group>"; };
+		B9A88B2528A7904F005E70F6 /* Tourism.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tourism.swift; sourceTree = "<group>"; };
+		B9A88B2728A7906C005E70F6 /* ViewModelBase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModelBase.swift; sourceTree = "<group>"; };
+		B9A88B2928A79086005E70F6 /* PlaceListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceListViewModel.swift; sourceTree = "<group>"; };
+		B9A88B2B28A790AC005E70F6 /* PlaceItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceItemView.swift; sourceTree = "<group>"; };
+		B9A88B2D28A790C9005E70F6 /* PlaceListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceListView.swift; sourceTree = "<group>"; };
+		B9A88B2F28A790E7005E70F6 /* PlaceDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceDetailView.swift; sourceTree = "<group>"; };
+		B9A88B3128A790FF005E70F6 /* FailedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FailedView.swift; sourceTree = "<group>"; };
+		B9A88B3328A79116005E70F6 /* ProfileRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileRowView.swift; sourceTree = "<group>"; };
+		B9A88B3528A7912C005E70F6 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		B9A88B3728A79143005E70F6 /* PlaceAnnotationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceAnnotationView.swift; sourceTree = "<group>"; };
+		B9A88B3928A79169005E70F6 /* PlaceListScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceListScreen.swift; sourceTree = "<group>"; };
+		B9A88B3B28A79184005E70F6 /* ProfileScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileScreen.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B9A88B0128A78EE4005E70F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B9A88AFB28A78EE4005E70F6 = {
+			isa = PBXGroup;
+			children = (
+				B9A88B0628A78EE4005E70F6 /* Pariwisata */,
+				B9A88B0528A78EE4005E70F6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B9A88B0528A78EE4005E70F6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B9A88B0428A78EE4005E70F6 /* Pariwisata.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B9A88B0628A78EE4005E70F6 /* Pariwisata */ = {
+			isa = PBXGroup;
+			children = (
+				B9A88B1C28A78FB3005E70F6 /* Screen */,
+				B9A88B1B28A78FAB005E70F6 /* Data */,
+				B9A88B1A28A78F9D005E70F6 /* Model */,
+				B9A88B1928A78F91005E70F6 /* View Model */,
+				B9A88B1828A78F8B005E70F6 /* View */,
+				B9A88B1728A78F7F005E70F6 /* Services */,
+				B9A88B1628A78F75005E70F6 /* Extension */,
+				B9A88B1528A78F31005E70F6 /* Info.plist */,
+				B9A88B0728A78EE4005E70F6 /* PariwisataApp.swift */,
+				B9A88B0928A78EE4005E70F6 /* ContentView.swift */,
+				B9A88B0B28A78EE6005E70F6 /* Assets.xcassets */,
+				B9A88B0D28A78EE6005E70F6 /* Preview Content */,
+			);
+			path = Pariwisata;
+			sourceTree = "<group>";
+		};
+		B9A88B0D28A78EE6005E70F6 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				B9A88B0E28A78EE6005E70F6 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B9A88B1628A78F75005E70F6 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				B9A88B1D28A78FD2005E70F6 /* URL+Extension.swift */,
+				B9A88B1F28A78FF4005E70F6 /* View+Extension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		B9A88B1728A78F7F005E70F6 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				B9A88B2128A79013005E70F6 /* HTTPClient.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		B9A88B1828A78F8B005E70F6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B9A88B2B28A790AC005E70F6 /* PlaceItemView.swift */,
+				B9A88B2D28A790C9005E70F6 /* PlaceListView.swift */,
+				B9A88B2F28A790E7005E70F6 /* PlaceDetailView.swift */,
+				B9A88B3128A790FF005E70F6 /* FailedView.swift */,
+				B9A88B3328A79116005E70F6 /* ProfileRowView.swift */,
+				B9A88B3528A7912C005E70F6 /* MapView.swift */,
+				B9A88B3728A79143005E70F6 /* PlaceAnnotationView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B9A88B1928A78F91005E70F6 /* View Model */ = {
+			isa = PBXGroup;
+			children = (
+				B9A88B2728A7906C005E70F6 /* ViewModelBase.swift */,
+				B9A88B2928A79086005E70F6 /* PlaceListViewModel.swift */,
+			);
+			path = "View Model";
+			sourceTree = "<group>";
+		};
+		B9A88B1A28A78F9D005E70F6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B9A88B2528A7904F005E70F6 /* Tourism.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B9A88B1B28A78FAB005E70F6 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				B9A88B2328A79032005E70F6 /* SampleData.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		B9A88B1C28A78FB3005E70F6 /* Screen */ = {
+			isa = PBXGroup;
+			children = (
+				B9A88B3928A79169005E70F6 /* PlaceListScreen.swift */,
+				B9A88B3B28A79184005E70F6 /* ProfileScreen.swift */,
+			);
+			path = Screen;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B9A88B0328A78EE4005E70F6 /* Pariwisata */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B9A88B1228A78EE6005E70F6 /* Build configuration list for PBXNativeTarget "Pariwisata" */;
+			buildPhases = (
+				B9A88B0028A78EE4005E70F6 /* Sources */,
+				B9A88B0128A78EE4005E70F6 /* Frameworks */,
+				B9A88B0228A78EE4005E70F6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Pariwisata;
+			productName = Pariwisata;
+			productReference = B9A88B0428A78EE4005E70F6 /* Pariwisata.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B9A88AFC28A78EE4005E70F6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					B9A88B0328A78EE4005E70F6 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+				};
+			};
+			buildConfigurationList = B9A88AFF28A78EE4005E70F6 /* Build configuration list for PBXProject "Pariwisata" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B9A88AFB28A78EE4005E70F6;
+			productRefGroup = B9A88B0528A78EE4005E70F6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B9A88B0328A78EE4005E70F6 /* Pariwisata */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B9A88B0228A78EE4005E70F6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9A88B0F28A78EE6005E70F6 /* Preview Assets.xcassets in Resources */,
+				B9A88B0C28A78EE6005E70F6 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B9A88B0028A78EE4005E70F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9A88B0A28A78EE4005E70F6 /* ContentView.swift in Sources */,
+				B9A88B2628A7904F005E70F6 /* Tourism.swift in Sources */,
+				B9A88B2428A79032005E70F6 /* SampleData.swift in Sources */,
+				B9A88B2C28A790AC005E70F6 /* PlaceItemView.swift in Sources */,
+				B9A88B2228A79013005E70F6 /* HTTPClient.swift in Sources */,
+				B9A88B2E28A790C9005E70F6 /* PlaceListView.swift in Sources */,
+				B9A88B0828A78EE4005E70F6 /* PariwisataApp.swift in Sources */,
+				B9A88B3628A7912C005E70F6 /* MapView.swift in Sources */,
+				B9A88B3028A790E7005E70F6 /* PlaceDetailView.swift in Sources */,
+				B9A88B2828A7906C005E70F6 /* ViewModelBase.swift in Sources */,
+				B9A88B2028A78FF4005E70F6 /* View+Extension.swift in Sources */,
+				B9A88B1E28A78FD2005E70F6 /* URL+Extension.swift in Sources */,
+				B9A88B3428A79116005E70F6 /* ProfileRowView.swift in Sources */,
+				B9A88B3C28A79184005E70F6 /* ProfileScreen.swift in Sources */,
+				B9A88B3228A790FF005E70F6 /* FailedView.swift in Sources */,
+				B9A88B3A28A79169005E70F6 /* PlaceListScreen.swift in Sources */,
+				B9A88B2A28A79086005E70F6 /* PlaceListViewModel.swift in Sources */,
+				B9A88B3828A79143005E70F6 /* PlaceAnnotationView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		B9A88B1028A78EE6005E70F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B9A88B1128A78EE6005E70F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B9A88B1328A78EE6005E70F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Pariwisata/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Pariwisata/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = co.id.zainal.Pariwisata;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B9A88B1428A78EE6005E70F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Pariwisata/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Pariwisata/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = co.id.zainal.Pariwisata;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B9A88AFF28A78EE4005E70F6 /* Build configuration list for PBXProject "Pariwisata" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B9A88B1028A78EE6005E70F6 /* Debug */,
+				B9A88B1128A78EE6005E70F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B9A88B1228A78EE6005E70F6 /* Build configuration list for PBXNativeTarget "Pariwisata" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B9A88B1328A78EE6005E70F6 /* Debug */,
+				B9A88B1428A78EE6005E70F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B9A88AFC28A78EE4005E70F6 /* Project object */;
+}
